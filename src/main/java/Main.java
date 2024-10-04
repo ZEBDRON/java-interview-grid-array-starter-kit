@@ -2,7 +2,9 @@ public class Main {
 
     /* Implement your solution inside this method. */
    public int orangesRotting(int[][] grid) {
-     // WRITE YOUR CODE HERE.
+    // WRITE YOUR CODE HERE.
+
+     return 0;
    }
 
 
@@ -28,9 +30,6 @@ public class Main {
             }
         }
         
-        Main main = new Main();
-        // Parse the grid
-        int[][] grid = main.parseGrid(input);
         int out = new Main().orangesRotting(grid);
         System.out.println(out);
     }
