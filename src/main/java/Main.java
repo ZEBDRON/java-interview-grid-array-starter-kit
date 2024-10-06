@@ -4,7 +4,7 @@ public class Main {
    public int orangesRotting(int[][] grid) {
     // WRITE YOUR CODE HERE.
 
-     return 0;
+     return -1;
    }
 
 
@@ -19,7 +19,7 @@ public class Main {
     public static void main(String[] args) {
         String input = args[0];
 
-        String[] rows = input.split("\\|");
+        String[] rows = input.split("\\s*\\|\\s*");
         int[][] grid = new int[rows.length][];
         
         for (int i = 0; i < rows.length; i++) {
