@@ -4,7 +4,7 @@ public class Main {
    public int orangesRotting(int[][] grid) {
     // WRITE YOUR CODE HERE.
 
-     return -1;
+     return -2;
    }
 
 
